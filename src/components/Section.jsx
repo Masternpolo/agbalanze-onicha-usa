@@ -1,6 +1,17 @@
 import Card from './Card'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
+
+
 
 function Section() {
+
+  useEffect(() => {
+  AOS.init({ duration: 1000 });
+}, []);
+
   return (
     <>
       <section className=''>
