@@ -32,7 +32,6 @@ function Section() {
               <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione molestias dolore maiores! Eius magni, laudantium ad illo voluptas tenetur dicta quaerat eum, rem, optio assumenda cum unde expedita odio sint?</h1>
             </div>
           </div>
-
         </div>
       </section>
     </>
