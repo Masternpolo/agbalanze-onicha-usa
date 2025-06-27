@@ -12,9 +12,16 @@ import About from './components/About'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import { createBrowserRouter, RouterProvider} from "react-router-dom";
 
-
+const router = createBrowserRouter([
+  { path: "/", element: <Home/>},
+  { path: "/", element: <About/>},
+  { path: "/", element: <Contact/>},
+  { path: "/", element: <Members/>},
+  { path: "/", element: <Gallery/>},
+  { path: "/", element: <Events/>},
+])
 
 function App() {
 
@@ -25,17 +32,7 @@ function App() {
   return (
     <>
      <Navbar/>
-     <Router>
-      <Routes>
-        <Route exact path="/" element={<Home/>}/>
-         <Route exact path="/About" element={<About/>}/>
-        <Route exact path="/Events" element={<Events/>}/>
-        <Route exact path="/Members" element={<Members/>}/> 
-        <Route exact path="/Gallery" element={<Gallery/>}/> 
-        <Route exact path="/contact" element={<Contact/>}/> 
-
-      </Routes>
-    </Router>
+     <RouterProvider router={router}/>
     <Footer/>
     </>
   )
