@@ -39,8 +39,8 @@ function Card() {
                   className={`rounded-xl`} />
               </figure>
               <div className="items-center text-center">
-              <h3 className="card-title px-5">{exco.name}</h3>
-              <h4 className='font-bold pb-2'>{exco.role}</h4>
+              <h3 className="text-black card-title px-5">{exco.name}</h3>
+              <h4 className='text-black font-bold pb-2'>{exco.role}</h4>
 
               </div>
             </div>

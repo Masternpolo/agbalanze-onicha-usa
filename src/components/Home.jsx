@@ -15,7 +15,7 @@ function Home() {
     <div>
       <Carousel />
       <section className=''>
-        <div className="grid grid-cols-1 md:grid-cols-2">
+        <div className="bg-white grid grid-cols-1 md:grid-cols-2">
           <div className="px-8 md:px-10 lg:px-16 xl:px-20 relative">
             <div className="py-12 md:py-1 xl:pt-">
               <hr className='container bg-orange-400 w-24 h-0.5 md:h-1 md:mt-3' />

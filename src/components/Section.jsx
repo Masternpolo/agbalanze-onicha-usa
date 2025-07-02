@@ -9,12 +9,12 @@ import { useEffect } from 'react';
 function Section() {
 
   useEffect(() => {
-  AOS.init({ duration: 1000 });
+  AOS.init({ duration: 2000 });
 }, []);
 
   return (
     <>
-      <section className=''>
+      <section className='bg-white'>
         <div className="px-8 md:px-10 lg:px-16 xl:px-20">
           <div className="flex gap-3 pt-8">
             <p className='text-gray-500'>ACTIVITIES </p>

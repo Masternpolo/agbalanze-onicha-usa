@@ -30,7 +30,7 @@ const processes = [
 function About() {
   return (
     <>
-      <div className="px-8 md:px-10 lg:px-16 xl:px-20">
+      <div className="bg-white px-8 md:px-10 lg:px-16 xl:px-20">
         <div className="leading-7">
           <h3 className='text-2xl font-bold my-8'>HISTORY OF AGBALANZE ONITSHA USA</h3>
           <p className='px-2'>History was made in Baltimore, Maryland on Saturday, February 3, 2007 when, with the strong blessing and endorsement of Agbalanze Onitsha, in Onitsha, the Agbalanze Onitsha, USA was officially born.</p>

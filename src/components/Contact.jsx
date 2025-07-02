@@ -20,7 +20,7 @@ const data2 = [
 function Contact() {
   return (
     <>
-      <section className="px-8 md:px-10 lg:px-16 xl:px-20 ">
+      <section className="bg-white px-8 md:px-10 lg:px-16 xl:px-20 ">
         <div className="mb-4">
           <div className="flex gap-3 pt-8">
             <p className='text-gray-500'>CONTACT</p>
