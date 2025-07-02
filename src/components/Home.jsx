@@ -31,7 +31,7 @@ function Home() {
           </div>
         </div>
 
-        <div className="px-8  md:px-10 md:gap-6 lg:px-16 xl:px-20 grid gap-4 grid-cols-1 md:grid-cols-2 mt-16">
+        <div className="px-8 bg-white md:px-10 md:gap-6 lg:px-16 xl:px-20 grid gap-4 grid-cols-1 md:grid-cols-2 mt-16">
 
           <div className="mb-8">
             <img className='h-80 rounded-xl' src={Pres} alt="" />
