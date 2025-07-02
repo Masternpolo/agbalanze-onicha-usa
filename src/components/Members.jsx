@@ -191,7 +191,7 @@ function Members() {
 
   return (
     <>
-      <div className="bg-white px-8 md:px-12 lg:px-16 xl:px-20 my-8">
+      <div className="bg-white px-8 md:px-12 lg:px-16 xl:px-20">
         <h2 className="text-center my-6 font-bold text-2xl">MEMBERS OF AGBALANZE ONITSHA USA CULTURAL ASSOCIATION</h2>
         <table className="border-separate border-spacing-2 border-slate-400 md:w-5/6 mx-auto ">
           <tr className="border-2 w-full">
