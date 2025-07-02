@@ -36,7 +36,7 @@ function Home() {
           <div className="mb-8">
             <img className='h-80 rounded-xl' src={Pres} alt="" />
           </div>
-          <div className="">
+          <div className="text-black">
             <hr className='container bg-orange-400 w-24 h-0.5 md:h-1 mt-3' />
 
             <h2 className=' text-3xl font-bold md:text-4xl lg:text0-5xl my-2 ' >The President General, Agbalanze Onitsha Cultural Association</h2>

@@ -32,7 +32,7 @@ function About() {
     <>
       <div className="bg-white text-black px-8 md:px-10 lg:px-16 xl:px-20">
         <div className="leading-7">
-          <h3 className='text-2xl font-bold my-8'>HISTORY OF AGBALANZE ONITSHA USA</h3>
+          <h3 className='text-2xl font-bold py-8'>HISTORY OF AGBALANZE ONITSHA USA</h3>
           <p className='px-2'>History was made in Baltimore, Maryland on Saturday, February 3, 2007 when, with the strong blessing and endorsement of Agbalanze Onitsha, in Onitsha, the Agbalanze Onitsha, USA was officially born.</p>
           <p className='px-2'>Agbalanze members came from all over the United States for the historic and memorable inaugural meeting of the organization to be part of history. It was a day that will make Agbalanze Onitsha in particular and Onitsha in general proud.</p>
         </div>

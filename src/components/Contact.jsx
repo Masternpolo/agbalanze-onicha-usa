@@ -20,7 +20,7 @@ const data2 = [
 function Contact() {
   return (
     <>
-      <section className="bg-white px-8 md:px-10 lg:px-16 xl:px-20 ">
+      <section className="bg-white text-black px-8 md:px-10 lg:px-16 xl:px-20 ">
         <div className="mb-4">
           <div className="flex gap-3 pt-8">
             <p className='text-gray-500'>CONTACT</p>
@@ -80,7 +80,7 @@ function Contact() {
             <button className="btn bg-orange-400 hover:bg-primary my-4 text-center text-white w-20 mx-auto md:w-28 lg:w-40 lg:mx-auto">Submit</button>
           </form>
         </div>
-        <div className="my-6 py-2">
+        <div className="py-6">
           <h2 className='text-3xl pb-4 font-semibold md:font-bold '>Annual Dues Remittance</h2>
           <p className='my-2 pb-2'>$100.00 annual dues is due for payment to "Agbalanze Onitsha, USA" before the end of each year.</p>
           <h3 className='text-2xl pb-4 font-semibold md:font-bold'>Remittance Details for ZELLE</h3>
