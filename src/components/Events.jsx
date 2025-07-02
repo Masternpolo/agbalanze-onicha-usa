@@ -3,7 +3,7 @@ import React from 'react'
 function Events() {
   return (
     <>
-      <div className="bg-white px-8 md:px-10 lg:px-16 xl:px-20">
+      <div className="bg-white text-black px-8 md:px-10 lg:px-16 xl:px-20">
         <h1>
           AGBALANZE ONITSHA USA EVENTS AND PROGRAMS
         </h1>

@@ -191,8 +191,8 @@ function Members() {
 
   return (
     <>
-      <div className="bg-white px-8 md:px-12 lg:px-16 xl:px-20">
-        <h2 className="text-center my-6 font-bold text-2xl">MEMBERS OF AGBALANZE ONITSHA USA CULTURAL ASSOCIATION</h2>
+      <div className="bg-white text-black px-8 md:px-12 lg:px-16 xl:px-20">
+        <h2 className="text-center py-6 font-bold text-2xl">MEMBERS OF AGBALANZE ONITSHA USA CULTURAL ASSOCIATION</h2>
         <table className="border-separate border-spacing-2 border-slate-400 md:w-5/6 mx-auto ">
           <tr className="border-2 w-full">
             <th className="border border-slate-300 ">No</th>
@@ -200,15 +200,14 @@ function Members() {
           </tr>
 
           {filterData && filterData.map((item, index) => 
-          <tr key={index} className="p-4 border-2 border-spacing-2">
+          <tr key={index} className="p-4 border-2 border-spacing-2 text-black">
             <td className="border border-slate-300 text-center ">{item.id}</td>
             <td className="border border-slate-300 pl-8">{item.name}</td>
           </tr>)}
         </table>
        
-
         <ReactPaginate
-          containerClassName={"flex flex-row items-center justify-center "}
+          containerClassName={"flex flex-row items-center justify-center py-6"}
           pageClassName={"page-item"}
           activeClassName={"active"}
           onPageChange={(event) => setPage(event.selected)}
